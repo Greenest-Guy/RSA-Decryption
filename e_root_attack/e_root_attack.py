@@ -1,7 +1,7 @@
 import gmpy2
 
 
-class ERootDecrypt:
+class ERootAttack:
     def __init__(self, ciphertext: int, public_exponent: int, modulus: int):
         self.ciphertext = ciphertext  # c
         self.public_exponent = public_exponent  # e
